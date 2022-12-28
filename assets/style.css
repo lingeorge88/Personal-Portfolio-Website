@@ -76,10 +76,22 @@ button {
     margin:auto;
     padding-left:50px;
 }
+#Project1{
+    margin-left: 20%;
+}
+.Projects {
+    display: flex;
+    flex-direction: row;
+}
+.Projects h2{
+    padding: 50px;
+    border-right: 4px solid black;
+}
 
-
-
-
+.Projects div{
+    margin: auto;
+    padding-left: 50px;
+}
 .hero-item {
     background-image: url(https://kinsta.com/wp-content/uploads/2019/10/wordpress-portfolio-plugin.png);
     display: flex;
