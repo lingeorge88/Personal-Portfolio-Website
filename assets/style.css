@@ -75,6 +75,10 @@ button {
 .aboutFlex div {
     margin:auto;
     padding-left:50px;
+    
+}
+.aboutFlex div h3, p{
+    font-weight: 250;
 }
 #Project1{
     margin-left: 20%;
@@ -179,13 +183,16 @@ p h3 {
     font-weight: lighter;
 }
 .footer {
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
-    background-color: aquamarine;
+    background-color: black;
 }
-.foot {
-    display: flex;
-    list-style: none;
+.contact {
+    background-color: rgb(177, 177, 177);
+    color: black;
+    padding: 15px;
+    border-radius: 1.5em;
 }
 button:hover, button:focus{
     border-color: cyan;
@@ -197,3 +204,9 @@ button:hover, button:focus{
     background-color: aquamarine;
  }
  
+ @media screen and (max-width: 756px){
+    body {
+        flex-direction: column;
+    }
+ }
+    
