@@ -80,21 +80,26 @@ button {
 .aboutFlex div h3, p{
     font-weight: 250;
 }
-#Project1{
-    margin-left: 20%;
-}
-.Projects {
+.page-section{
+    margin: 25px 0;
+    padding: 10px, 0;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
 }
-.Projects h2{
-    padding: 50px;
+.page-section h2{
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 15px;
     border-right: 4px solid black;
+    font-size: 4vw;
+    line-height: 1.1;
 }
 
-.Projects div{
-    margin: auto;
-    padding-left: 50px;
+.page-section > div {
+    flex: 0 0 77%;
 }
 .hero-item {
     background-image: url(https://kinsta.com/wp-content/uploads/2019/10/wordpress-portfolio-plugin.png);
