@@ -73,8 +73,7 @@ button {
     border-right: 4px solid black;
 }
 .aboutFlex div {
-    margin:auto;
-    padding-left:50px;
+    padding-left: 50px;
     
 }
 .aboutFlex div h3, p{
@@ -109,8 +108,8 @@ button {
     flex-wrap: wrap;
     width: 60vw;
     height: 70vh;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right:;
+    margin-left:;
     margin-bottom: 2.5px;
     border: 5px solid lightskyblue;
 }
@@ -170,17 +169,15 @@ button {
 .hero-item h2{
     font-size: 200%;
 }
-.hero-item img {
-    width: 50%;
-}
+
 .heading1 {
     background: rgb(137, 231, 254);
     color: black;
     width: 25%;
     
 }
-.heading1 h3{
-    font-size: 85%;
+.heading1 h2{
+    font-size: 125%;
     font-weight: 300;
 }
 p h3 {
