@@ -37,13 +37,12 @@ button {
     display: flex;
     background-image: url("https://i.pinimg.com/originals/6c/56/d5/6c56d5961a690f50b8baca0b398eac7c.png");
     margin-bottom: 50px;
+    justify-content: flex-end;
 
 }
 
-.divider h2{
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: 35px;
+#quote {
+    background: lightblue;
     
 }
 .Portfolio-grid {
@@ -54,13 +53,10 @@ button {
 }
 .Portfolio-grid-item {
     flex-grow:0;
-    background:aquamarine;
     width: calc(50% - 5px);
-    padding: 15px;
-    
 }
 #Aboutme {
-    margin-left: 20%;
+    margin-left: 10%;
     
 }
 .aboutFlex {
@@ -102,12 +98,13 @@ button {
 }
 .hero-item {
     background-image: url(https://kinsta.com/wp-content/uploads/2019/10/wordpress-portfolio-plugin.png);
+    background-repeat: no-repeat;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
     flex-wrap: wrap;
-    width: 60vw;
-    height: 70vh;
+    width: 76.8%;
+    height: 65vh;
     margin-right:;
     margin-left:;
     margin-bottom: 2.5px;
@@ -120,7 +117,6 @@ button {
     width: 60vw;
     height: 60vh;
     margin-left: auto;
-    margin-right: auto;
 
 }
 .recipebot {
@@ -184,17 +180,12 @@ p h3 {
     font-size: 85%;
     font-weight: lighter;
 }
-.footer {
-    margin-top: 20px;
+
+.page-section > ul {
     display: flex;
-    justify-content: space-between;
-    background-color: black;
-}
-.contact {
-    background-color: rgb(177, 177, 177);
-    color: black;
-    padding: 15px;
-    border-radius: 1.5em;
+    list-style-type: none;
+    margin-right:15px;
+    padding:15px;
 }
 button:hover, button:focus{
     border-color: cyan;
@@ -205,6 +196,12 @@ button:hover, button:focus{
     cursor: pointer;
     background-color: aquamarine;
  }
+ .Portfolio-grid-item:hover, .Portfolio-grid-item:focus, .smallpics:hover, .smallpics:focus {
+    background-color: rgb(247, 250, 185);
+    border-color: violet;
+    transform: scale(105%, 105%);
+ }
+
  
  @media screen and (max-width: 756px){
     body {
