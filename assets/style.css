@@ -62,3 +62,27 @@ button:hover, button:focus{
 #quote {
     background: lightblue;
 }
+
+.page-section{
+    display: flex;
+    width: 70%;
+    margin:auto;
+}
+.left{
+    width: 20%;
+    /* border: 1px solid red; */
+    border-right: 4px solid black;
+    font-size: 2.8em;
+    padding-right: 50px;
+}
+
+.right{
+    /* border:1px solid blue; */
+    width:80%;
+    padding-left: 50px;
+    font-size: 110%;
+}
+.page-section img{
+    height: 30vh;
+    width: 15vw;
+}
