@@ -17,176 +17,28 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: black;
+    align-items: center;
+    padding:0 25px;
 }
 
 .nav {
     display: flex;
     list-style: none;
+    gap: 15px;
 }
 
 .nav a {
     padding: 8px 12px;
     color:inherit;
+    font-size: 125%;
 }
 button {
-    margin-right:15px;
+    /* margin-right:15px; */
     padding:15px;
     border-radius: 1.5em;
-}
-.divider {
-    display: flex;
-    background-image: url("https://i.pinimg.com/originals/6c/56/d5/6c56d5961a690f50b8baca0b398eac7c.png");
-    margin-bottom: 50px;
-    justify-content: flex-end;
 
 }
 
-#quote {
-    background: lightblue;
-    
-}
-.Portfolio-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 10px;
-}
-.Portfolio-grid-item {
-    flex-grow:0;
-    width: calc(50% - 5px);
-}
-#Aboutme {
-    margin-left: 10%;
-    
-}
-.aboutFlex {
-    display: flex;
-    flex-direction: row;
-
-}
-.aboutFlex h2{
-    padding: 50px;
-    border-right: 4px solid black;
-}
-.aboutFlex div {
-    padding-left: 50px;
-    
-}
-.aboutFlex div h3, p{
-    font-weight: 250;
-}
-.page-section{
-    margin: 25px 0;
-    padding: 10px, 0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: stretch;
-    justify-content: space-between;
-}
-.page-section h2{
-    flex: 0 0 20%;
-    text-align: right;
-    padding-right: 15px;
-    border-right: 4px solid black;
-    font-size: 4vw;
-    line-height: 1.1;
-}
-
-.page-section > div {
-    flex: 0 0 77%;
-}
-.hero-item {
-    background-image: url(https://kinsta.com/wp-content/uploads/2019/10/wordpress-portfolio-plugin.png);
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-    flex-wrap: wrap;
-    width: 76.8%;
-    height: 65vh;
-    margin-right:;
-    margin-left:;
-    margin-bottom: 2.5px;
-    border: 5px solid lightskyblue;
-}
-.smallpics {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 60vw;
-    height: 60vh;
-    margin-left: auto;
-
-}
-.recipebot {
-    background-image: url(https://i.pinimg.com/564x/3a/d2/56/3ad25624f4365bdcf857082e724348b3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-    margin: 2.5px;
-    border: 5px solid lightskyblue;
-
-}
-.toDoList {
-    background-image: url(https://i.pinimg.com/736x/f7/9d/3f/f79d3f88fba69ecad6b62dddbcb1e8ea.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-    margin: 2.5px;
-    border: 5px solid lightskyblue;
-}
-
-.Weatherapp {
-    background-image: url(https://i.pinimg.com/564x/f6/a1/f3/f6a1f32c2a9cc38749a15797bc909539.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-    margin:2.5px;
-    border: 5px solid lightskyblue;
-}
-
-.Finalproject {
-    background-image: url(https://i.pinimg.com/564x/09/d6/bf/09d6bfc03b197744925c51762fb97cbc.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-    margin:2.5px;
-    border: 5px solid lightskyblue;
-}
-.hero-item h2{
-    font-size: 200%;
-}
-
-.heading1 {
-    background: rgb(137, 231, 254);
-    color: black;
-    width: 25%;
-    
-}
-.heading1 h2{
-    font-size: 125%;
-    font-weight: 300;
-}
-p h3 {
-    font-size: 85%;
-    font-weight: lighter;
-}
-
-.page-section > ul {
-    display: flex;
-    list-style-type: none;
-    margin-right:15px;
-    padding:15px;
-}
 button:hover, button:focus{
     border-color: cyan;
     color: black;
@@ -196,16 +48,17 @@ button:hover, button:focus{
     cursor: pointer;
     background-color: aquamarine;
  }
- .Portfolio-grid-item:hover, .Portfolio-grid-item:focus, .smallpics:hover, .smallpics:focus {
-    background-color: rgb(247, 250, 185);
-    border-color: violet;
-    transform: scale(105%, 105%);
- }
 
- 
- @media screen and (max-width: 756px){
-    body {
-        flex-direction: column;
-    }
- }
-    
+ .divider {
+    display: flex;
+    background-image: url("https://i.pinimg.com/originals/6c/56/d5/6c56d5961a690f50b8baca0b398eac7c.png");
+    margin-bottom: 50px;
+    justify-content: flex-end;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 0 25px;
+}
+
+#quote {
+    background: lightblue;
+}
