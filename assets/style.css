@@ -4,7 +4,9 @@
 body {
     margin: 0;
 }
-
+a:link {
+    text-decoration: none;
+}
 .navbar h1{
     font-size: 300%;
     font-weight: 300;
@@ -79,10 +81,141 @@ button:hover, button:focus{
 .right{
     /* border:1px solid blue; */
     width:80%;
-    padding-left: 50px;
+    padding: 0 50px;
     font-size: 110%;
 }
 .page-section img{
     height: 30vh;
     width: 15vw;
+}
+.project {
+    display: flex;
+    flex-direction: column;
+    border:1px solid red;
+    height:30vh;
+    flex: 1;
+    width: 25vw;
+    border: 5px solid lightskyblue;
+    background-position: center;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+    
+.bigProject {
+    margin-top: 30px;
+    height:65vh;
+    width:100%;
+    margin-bottom:30px;
+    background-image: url(https://kinsta.com/wp-content/uploads/2019/10/wordpress-portfolio-plugin.png);
+    background-repeat: no-repeat;
+}
+.smallpics{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.row{
+    display: flex;
+    gap: 30px;
+}
+h3, h5 {
+
+    background: rgb(137, 231, 254);
+    background-size: 120%;
+    color: black;
+    width: 25%;
+    margin: 0;
+    padding-right: 20px;
+}
+#toDoList{
+    background-image: url(https://i.pinimg.com/736x/f7/9d/3f/f79d3f88fba69ecad6b62dddbcb1e8ea.jpg);
+}
+#Recipebot {
+    background-image: url(https://i.pinimg.com/564x/3a/d2/56/3ad25624f4365bdcf857082e724348b3.jpg);
+}
+#Weatherapp{
+    background-image: url(https://i.pinimg.com/564x/f6/a1/f3/f6a1f32c2a9cc38749a15797bc909539.jpg);
+}
+#Finalproj{
+    background-image: url(https://i.pinimg.com/564x/09/d6/bf/09d6bfc03b197744925c51762fb97cbc.jpg);
+}
+ul{
+    display: flex;
+    gap: 50px;
+    padding-right: 30px;
+}
+
+#list{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 175%;
+    color: black;
+}
+
+ .left:hover, .left:focus, .right:hover, .right:focus, .bigProject:hover, .bigProject:focus, .project:hover, .project:focus {
+    background-color: skyblue;
+    transform: scale(105%, 105%);
+    border:5px solid rgb(221, 159, 244);
+}
+li:hover, li:focus{
+    transform: scale(105%, 105%);
+    color: yellow;
+    box-shadow: 0 0.5em 0.5em -0.25em aquamarine;
+}
+
+
+@media only screen
+and (max-width: 1980px) {
+    button{
+        display: block;
+    }
+    .page-section {
+        display:block;
+    }
+    .left {
+        width: 100%;
+        border-bottom:3px solid black;
+        margin-bottom: 10px;
+    }
+    .smallpics {
+        width: 59%;
+        height: 80%;
+    }
+    ul {
+        display: block;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .nav{
+        display: block;
+    }
+    .page-section {
+        display:block;  
+    }
+    .left {
+        width: 100%;
+        border-bottom:3px solid black;
+        margin-bottom: 10px;
+    }
+    .row{
+        display: block;
+    }
+    .page-section img {
+        height: 20vh;
+        width: 30vw; 
+    }
+    
+    .bigProject {
+        height:40vh;
+        width:100%;
+    }
+    .smallpics{
+        height:20vh;
+        width:30vw;
+    } */
+    ul {
+        display: block;
+    }
 }
