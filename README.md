@@ -4,7 +4,7 @@ This is a personal portfolio website created using HTML and CSS to showcase the 
 
 ## Description
 
-This website was created using modern HTML and CSS codes including the use of Flexbox and Media query to create a responsive design on various screen sizes.  This website was created for personal use only.
+This website was created using modern HTML and CSS codes including the use of Flexbox and Media query to create a responsive design on various screen sizes.  This website was created for personal use only as part of a class project.
 
 ![portfolio demo](./assets/Document.png)
 
@@ -21,12 +21,11 @@ No additional installation is required if a modern web browser is already instal
 
 * Open the website at the following URL: https://lingeorge88.github.io/Personal-Portfolio-Website/
 ```
-code blocks for commands
 ```
 
 ## Help
 
-N/A
+Please contact me through the links in the following section if issues are encountered when opening or viewing the webpage.
 
 ## Authors
 
