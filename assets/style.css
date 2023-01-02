@@ -187,7 +187,7 @@ and (max-width: 1980px) {
         display: block;
     }
 }
-@media only screen and (max-width: 480px) {
+@media screen and (max-width: 756px) {
     .nav{
         display: block;
     }
@@ -199,22 +199,21 @@ and (max-width: 1980px) {
         border-bottom:3px solid black;
         margin-bottom: 10px;
     }
-    .row{
-        display: block;
+    .row {
+        flex-direction: column;
     }
     .page-section img {
-        height: 20vh;
+        height: 25vh;
         width: 30vw; 
     }
-    
+
+    .project {
+        height:20vh;
+        width: 40vh;
+    }
     .bigProject {
         height:40vh;
-        width:100%;
     }
-    .smallpics{
-        height:20vh;
-        width:30vw;
-    } */
     ul {
         display: block;
     }
