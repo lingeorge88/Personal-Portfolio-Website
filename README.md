@@ -6,7 +6,7 @@ This is a personal portfolio website created using HTML and CSS to showcase the 
 
 This website was created using modern HTML and CSS codes including the use of Flexbox and Media query to create a responsive design on various screen sizes.  This website was created for personal use only as part of a class project.
 
-![portfolio demo](./assets/Document.png)
+![portfolio demo](./assets/Recording.gif)
 
 ## Getting Started
 
@@ -31,7 +31,7 @@ Please contact me through the links in the following section if issues are encou
 
 George Lin
 
-E-mail: lingeorge04@gmail.com
+ E-mail: lingeorge04@gmail.com
 Github: https://github.com/lingeorge88
 
 ## Version History
