@@ -15,6 +15,7 @@ a:link {
     padding: 15px;
     border-radius: 1.5em;
 }
+/* Styles navbar and sets spacing for different contents */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -40,7 +41,7 @@ button {
     border-radius: 1.5em;
 
 }
-
+/* adds effects for nav bar buttons when hovering and focusing */
 button:hover, button:focus{
     border-color: cyan;
     color: black;
@@ -50,7 +51,7 @@ button:hover, button:focus{
     cursor: pointer;
     background-color: aquamarine;
  }
-
+/* styles divider between navbar and main content of the page */
  .divider {
     display: flex;
     background-image: url("https://i.pinimg.com/originals/6c/56/d5/6c56d5961a690f50b8baca0b398eac7c.png");
@@ -64,30 +65,31 @@ button:hover, button:focus{
 #quote {
     background: lightblue;
 }
-
+/* styling for rest of the page */
 .page-section{
     display: flex;
     width: 70%;
     margin:auto;
 }
+/* styling left side of the page with the title of the section and a dividing line */
 .left{
     width: 20%;
-    /* border: 1px solid red; */
     border-right: 4px solid black;
     font-size: 2.8em;
     padding-right: 50px;
 }
-
+/* styling for right side of the page with content */
 .right{
-    /* border:1px solid blue; */
     width:80%;
     padding: 0 50px;
     font-size: 110%;
 }
+/* profile picture styling */
 .page-section img{
     height: 30vh;
     width: 15vw;
 }
+/* default styling for grid items */
 .project {
     display: flex;
     flex-direction: column;
@@ -100,7 +102,7 @@ button:hover, button:focus{
     align-items: flex-start;
     justify-content: flex-end;
 }
-    
+    /* makes first grid item 2x bigger than the rest */
 .bigProject {
     margin-top: 30px;
     height:65vh;
@@ -109,6 +111,7 @@ button:hover, button:focus{
     background-image: url(https://kinsta.com/wp-content/uploads/2019/10/wordpress-portfolio-plugin.png);
     background-repeat: no-repeat;
 }
+/* styling for the 4 smaller items in the grid */
 .smallpics{
     display: flex;
     flex-direction: column;
@@ -118,14 +121,14 @@ button:hover, button:focus{
     display: flex;
     gap: 30px;
 }
+/* styling for titles of the grid items */
 h3, h5 {
-
     background: rgb(137, 231, 254);
     position: absolute;
     bottom: 20%;
     left: 9px;
-
 }
+/* adds background image for the projects */
 #toDoList{
     background-image: url(https://i.pinimg.com/736x/f7/9d/3f/f79d3f88fba69ecad6b62dddbcb1e8ea.jpg);
 }
@@ -143,7 +146,7 @@ ul{
     gap: 50px;
     padding-right: 30px;
 }
-
+/* styles list items in the contact section */
 #list{
     display: flex;
     align-items: flex-end;
@@ -152,7 +155,7 @@ ul{
     font-size: 175%;
     color: black;
 }
-
+/* adds effects when hovering over or focusing on different sections of the page */
  .left:hover, .left:focus, .right:hover, .right:focus, .bigProject:hover, .bigProject:focus, .project:hover, .project:focus {
     background-color: skyblue;
     transform: scale(105%, 105%);
@@ -164,7 +167,7 @@ li:hover, li:focus{
     box-shadow: 0 0.5em 0.5em -0.25em aquamarine;
 }
 
-
+/* first media query for when the left side with the titles collapse onto the content to make the page for viewable */
 @media only screen
 and (max-width: 1750px) {
     button{
@@ -189,6 +192,7 @@ and (max-width: 1750px) {
         display: block;
     }
 }
+/* media query for smaller screens and make cotents displat in block and column format */
 @media screen and (max-width: 756px) {
     .nav{
         display: block;
