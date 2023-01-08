@@ -121,11 +121,10 @@ button:hover, button:focus{
 h3, h5 {
 
     background: rgb(137, 231, 254);
-    background-size: 120%;
-    color: black;
-    width: 25%;
-    margin: 0;
-    padding-right: 20px;
+    position: absolute;
+    bottom: 20%;
+    left: 9px;
+
 }
 #toDoList{
     background-image: url(https://i.pinimg.com/736x/f7/9d/3f/f79d3f88fba69ecad6b62dddbcb1e8ea.jpg);
@@ -167,7 +166,7 @@ li:hover, li:focus{
 
 
 @media only screen
-and (max-width: 1920px) {
+and (max-width: 1750px) {
     button{
         display: block;
     }
@@ -178,6 +177,9 @@ and (max-width: 1920px) {
         width: 100%;
         border-bottom:3px solid black;
         margin-bottom: 10px;
+    }
+    .bigProject {
+        width:100%;
     }
     .smallpics {
         width: 59%;
