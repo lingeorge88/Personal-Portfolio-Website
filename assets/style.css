@@ -132,7 +132,8 @@ h3, h5 {
 }
 /* adds background image for the projects */
 #toDoList{
-    background-image: url(https://i.pinimg.com/736x/f7/9d/3f/f79d3f88fba69ecad6b62dddbcb1e8ea.jpg);
+    background-image: url(./project2.png);
+    background-size: contain;
 }
 #Recipebot {
     background-image: url(https://i.pinimg.com/564x/3a/d2/56/3ad25624f4365bdcf857082e724348b3.jpg);
